@@ -81,7 +81,7 @@ h1{
     display: flex;
 }
 .container-img img{
-    width: 60%;
+    width: 80%;
     display: flex;  
     align-items: center; 
     justify-content: center;
@@ -116,4 +116,34 @@ footer{
     background-color: rgb(145, 145, 163);
     text-align: right;
     padding-right: 40px;
+}
+
+
+@media screen and (max-width: 720px) {
+
+    .container-img{
+        width: 100%;
+        flex-wrap: wrap;
+        
+        display: flex;
+    }
+
+
+
+.container-img img{
+    min-width: 300px;
+    width: 90%;
+}
+.container-p{
+    width: 100%;
+}
+
+.container-p p{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 }
